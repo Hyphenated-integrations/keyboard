@@ -3,6 +3,6 @@ python:
   - "2.7"
   - "3.6"
 # command to install dependencies
-install: "pip install coverage"
+install: "sudo python3 -m pip install coverage"
 # command to run tests
 script: sh run_tests.sh
